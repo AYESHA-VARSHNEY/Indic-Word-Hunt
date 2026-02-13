@@ -12,7 +12,7 @@
 
 ## 📂 Repository Structure
 - `wss.java`: The main source code containing the game logic and GUI implementation.
-- `data.db`: SQLite database file (if available) containing the word list.
+- `data.db`: SQLite database file  containing the word list.
 - `PROJECT_REPORT.pdf`: Detailed documentation of the project development.
 - `PROJECT_PRESENTATION_SRS.pdf`: Software Requirements Specification and analysis.
 
