@@ -10,7 +10,7 @@ import java.util.LinkedHashSet;
 
 public class WordGuessingGameGUI extends JFrame {
     private static final Random random = new Random();
-    private static final String dbPath = "C:\\Users\\deepa\\IdeaProjects\\Wordhunt_data\\data.db";
+    private static final String dbPath = "data.db";
     private static final String url = "jdbc:sqlite:" + dbPath;
 
     private int mode = 1;
@@ -406,3 +406,4 @@ public class WordGuessingGameGUI extends JFrame {
         SwingUtilities.invokeLater(WordGuessingGameGUI::new);
     }
 }
+
